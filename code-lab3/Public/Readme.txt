@@ -1,14 +1,19 @@
+# To build Database administrator.
+
 docker build -t my_dba . 
 docker run --name mydba --network mynetwork -itd -p 8081:80 -d  my_dba
 
+# Create Network to connect all 3 containers
 
 docket network ls
-
 docker network create mynetwork
 
+# To build Database
 docker build -t my_db . 
 docker run --name mydb --network mynetwork -itd -p 5432:5432  -d my_db
 
+
+# To build Django web application
 
 (base) Manjushrees-MacBook-Pro:Public manju$ pwd
 /Users/manju/SCU-MSIS/Sep2022/Appplied_cloud/code/Week3/Public
