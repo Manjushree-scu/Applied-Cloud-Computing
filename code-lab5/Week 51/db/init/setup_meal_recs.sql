@@ -4,18 +4,18 @@ CREATE TABLE IF NOT EXISTS Meals (
     ,MealPrice REAL NOT NULL
 );
 
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Krusty Burger', 4.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Krusty Burger2', 6.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Double Krusty Burger', 8.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Deep Fried Krusty Burger', 12.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Mother Nature Burger', 7.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Double Double Double Double', 12.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Meat-Flavored Sandwich', 0.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('The Clogger', 3.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Whatchamachicken', 4.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Krusty Popcorn', 8.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Soda', 2.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Mega Sugar Soda', 2.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Heart Failure Fries', 3.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Krusty-Partially-Gelatinated-Non-Dairy-Gum-Based-Beverage', 8.99);
-INSERT INTO Meals(MealName, MealPrice) VALUES ('Hot Lettuce Injection', 8.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('AVOCADO JHALMURI', 10.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('SPECIAL SAMOSA', 9.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('TANDOORI VEGETABLE', 20.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('ACHARI CHICKEN TIKKA', 21.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('TOMATO AND FENNEL SOUP', 10.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('MULLIGATAWANY SOUP', 10.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('BOMBAY FISH MASALA', 22.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('YELLOW DAL TARKA', 19.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('KADHAI BHINDI', 20.00);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('GARDEN PIZZA', 23.00);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('PEPPERONI PIZZA', 25.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('GARLIC BREAD', 8.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('CALZONE', 15.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('PANINI', 15.99);
+INSERT INTO Meals(MealName, MealPrice) VALUES ('SALAD', 5.99);
