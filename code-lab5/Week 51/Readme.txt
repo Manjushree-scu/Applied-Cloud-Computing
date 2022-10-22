@@ -1,3 +1,6 @@
+If there is an error for import of SQLAlchemy then please run
+docker-compose up --build
+
 Consumer:
 For meal recomendation, Please login to 
 http://localhost:81
